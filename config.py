@@ -16,7 +16,7 @@ DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002457370797"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002157930558"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002157930558 -1002392944966 -100224520106"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "86400")) # auto delete in seconds
